@@ -1,0 +1,42 @@
+!!!5
+%html{class: "no-js", lang:"es"}
+    %head
+        %meta{:charset => "utf-8"}
+        %title Pagina web de vertice
+        %meta{name:"description", content:"Desarrollo web, Marketing digital, Diseño gráfico."}
+        %meta{name:"author", content:"Vertice"}
+        %meta{name:"viewport", content:"width=device-width, initial-scale=1, maximum-scale=1"}
+
+        %link{rel:"stylesheet", href:"css/normalize.css"}
+        %link{:rel => "stylesheet", :href => "css/style.css"}/
+        %script{src:"js/vendor/modernizr-2.8.3.min.js"}
+
+    %body
+        
+        ="<!-- [if lt IE 9]>"
+        %p{class:"browserupgrade"}
+            Estás usando un navedador 
+            %strong desactualizado
+            Por favor 
+            %a{:href => "http://browsehappy.com/"}
+            actualiza tu navegador para una mejora experiencia
+        ="<![endif]-->"
+        
+        
+        %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum consectetur ipsam, dolorem quo beatae consequatur at numquam, nulla error vitae dolorum pariatur modi sed. Necessitatibus quos delectus iure quisquam ratione!
+
+
+
+        
+
+        ="<!-- inicio de preload -->"
+        #preloader
+            #loader
+        ="<!-- fin de preload -->"
+
+
+        %script{src:"js/vendor/jquery-1.12.0.min.js"}
+        %script{src:"js/main.js"}
+
+
+
